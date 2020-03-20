@@ -39,7 +39,7 @@ public class MoveCardBetweenListsTest extends BaseTest {
 
     @Test
     @Order(2)
-    public void createFirstList(){
+    public void createFirstList() {
 
         Response response = given()
                 .spec(reqSpec)
@@ -60,7 +60,7 @@ public class MoveCardBetweenListsTest extends BaseTest {
 
     @Test
     @Order(3)
-    public void createSecondList(){
+    public void createSecondList() {
 
         Response response = given()
                 .spec(reqSpec)
@@ -81,7 +81,7 @@ public class MoveCardBetweenListsTest extends BaseTest {
 
     @Test
     @Order(4)
-    public void addCardToFirstList(){
+    public void addCardToFirstList() {
 
         Response response = given()
                 .spec(reqSpec)
@@ -102,7 +102,7 @@ public class MoveCardBetweenListsTest extends BaseTest {
 
     @Test
     @Order(5)
-    public void moveCardToSecondList(){
+    public void moveCardToSecondList() {
 
         Response response = given()
                 .spec(reqSpec)
@@ -121,7 +121,7 @@ public class MoveCardBetweenListsTest extends BaseTest {
 
     @Test
     @Order(6)
-    public void deleteBoard(){
+    public void deleteBoard() {
 
         given()
                 .spec(reqSpec)
